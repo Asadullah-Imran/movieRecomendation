@@ -122,7 +122,7 @@ def get_poster_url(tmdb_id):
         response = requests.get(
             f"https://api.themoviedb.org/3/movie/{tmdb_id}",
             params={
-                "api_key": "YOUR_TMDB_API_KEY",  # Replace with your TMDB API key
+                "api_key": "741a40962c8a0dee565jfff2eacbe",  # Replace with your TMDB API key
                 "language": "en-US"
             }
         )
